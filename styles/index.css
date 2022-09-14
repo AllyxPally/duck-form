@@ -1,0 +1,114 @@
+.container{
+    position: relative;
+    width: 1440px;
+    height:900px;
+    background-color: #9DBEBB;
+}
+
+.rectangle-1{
+    position: absolute;
+    width: 954px;
+    height:594px;
+    left: 243px;
+    top: 153px;
+    justify-content: space-between;
+    background-color: #BE0909;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+}
+
+
+.rectangle-2 {
+    position: absolute;
+    width: 345px;
+    height: 594px;
+    left: 852px;
+    top: 153px;
+    background-color: #FFB039;
+}
+
+.main-pic{
+    position: absolute;
+    width: 663px;
+    height: 603px;
+    left: 585px;
+    top: 205px;
+}
+
+.name-field {
+    position: absolute;
+    width: 400px;
+    height: 72px;
+    left: 308px;
+    top: 217px;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+   
+
+}
+
+.line-1 {
+    position:absolute;
+    width: 400px;
+    height: 0px;
+    left: 308px;
+    top: 289px;
+    border: 1px solid #9DBEBB;
+}
+
+
+.line-2 {
+    position: absolute;
+    width: 160px;
+    height: 0px;
+    left: 308px;
+    top: 383px;
+    border: 1px solid #9DBEBB;
+}
+
+.message-1 {
+    width: 213px;
+    height: 21px;
+    left: 308px;
+    top: 414px;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.email-field {
+    position: absolute;
+    width: 160px;
+    height: 72px;
+    left: 308px;
+    top: 311px;
+
+} 
+
+.main-btn{
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    left: 407px;
+    top: 635px;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FEFFFF;
+    background-color: #468189;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+}
