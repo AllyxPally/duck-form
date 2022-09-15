@@ -131,6 +131,15 @@
     color: #FEFFFF;
 }
 
+.line-4 {
+
+    position: absolute;
+    width: 400px;
+    height: 0px;
+    left: 308px;
+    top: 579px;
+    border: 1px solid #9DBEBB;
+}
 
 .main-btn{
     position: absolute;
