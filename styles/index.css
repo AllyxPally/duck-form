@@ -48,7 +48,7 @@ form{
     
 }
  
-input{
+ input{
     border-top: none;   
     border-left: none;   
     border-right: none;
@@ -60,18 +60,15 @@ input{
     display: flex;
     flex-direction: column;
     margin: 20px;
-    max-width: 100px;
+    max-width: 500px;
     text-align: justify;
 }
 
 .input {
-    width: 200px;
-    height: 21px;
     display: inline-block;
-    align-self: center;
     font-family: 'roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 16px;
     line-height: 21px;
     text-transform: uppercase;
@@ -81,19 +78,16 @@ input{
 
 
 ::placeholder {
-    width: 93px;
-    height: 21px;
     font-family: 'roboto', sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 18px;
     line-height: 21px;
+    opacity: 0.33;
     color: #FDFFFF;
 }
 
 .label {
-    width: 111px;
-    height: 21px;
     font-family: 'roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -109,12 +103,11 @@ input{
     width: 202px;
     height: 48px;
     display: inline-block;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
     font-family: 'roboto', sans-serif;
-    font-style: bold;
-    font-weight: 700px;
-    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 21px;
     text-align: center;
     letter-spacing: 0.1em;
